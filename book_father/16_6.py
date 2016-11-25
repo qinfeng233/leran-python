@@ -1,6 +1,6 @@
 import pygame,random,sys
 from pygame.color import THECOLORS
-pygame.init()
+#pygame.init()
 screen = pygame.display.set_mode([640,480])
 screen.fill([255,255,255])
 for i in range(100):
