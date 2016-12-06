@@ -10,8 +10,8 @@ dots = [[221, 432], [225,331],  [133, 342], [141, 310],
         [237, 432]]
 screen = pygame.display.set_mode([640,480])
 screen.fill([255,255,255])
-#pygame.draw.lines(screen,[255,0,0],True,dots,2)
-pygame.Surface.set_at()
+pygame.draw.lines(screen,[255,0,0],True,dots,2)
+#pygame.Surface.set_at()
 pygame.display.flip()
 running = True
 while running :

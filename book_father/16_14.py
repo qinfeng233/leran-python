@@ -15,8 +15,8 @@ while running:
 
     pygame.time.delay((20))
     pygame.draw.rect(screen,[255,255,255],[x,y,90,90],0)
-    x = x + x_speed
-    if x > screen.get_width() - 90 or x < 0:
+    y = y + x_speed
+    if y > screen.get_height() - 90 or y < 0:
         x_speed = - x_speed
     screen.blit(my_ball,[x,y])
     pygame.display.flip()

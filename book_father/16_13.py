@@ -15,7 +15,7 @@ for i in range(1,2000):
 
     pygame.time.delay(20)
     pygame.draw.rect(screen,[255,255,255],[x,y,90,90],0)
-    x += 5
+    x += 15
     screen.blit(my_ball,[x,y])
     pygame.display.flip()
 running = True
